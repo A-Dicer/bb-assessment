@@ -1,0 +1,33 @@
+I was able to get to most of the fixes we needed for the site.  
+Some things can still be improved and if we have time or the client desires we can 
+go back and add more in. 
+
+For example: The Navigation only had drop down options for "Christening". I added some to
+"Furniture" and "Bedding". We can always add more if the client requests it. 
+
+I went ahead and got the Allura and Alex Brush fonts and added them to a fonts file.  
+You can find the css at the top, notated.  If there are any more fonts the client wants 
+we can easy just put them in the file and add them in.
+
+I decided to use the font-awesome library for the icons.  They have a lot of options and 
+are easy to implement into the site. We could even think about using social media icons 
+instead of the images.  That could save some loading time. 
+
+I set up the code for the slide show and added a second and third slide.  If we need more slides 
+in the future we can just add the new slides information into the slideData Obj.  We can 
+also add slide animations and a controller later on down the road. 
+
+I added some bootstrap in the footer to format it quickly from desktop to mobile. The 
+expanders work on the small screen setting now. You can find the javascript for the onClick 
+event in the main.js file. It should also no longer horizontally scroll. 
+
+I added the viewport check in the head of the index file so we should be good on “Mobile” 
+devices now. 
+
+I think for future projects we could look into using more bootstrap.  It gives us a lot of easy 
+control of the layout.  I wouldn’t use it for the styling but it does make it easy to control 
+the layout for different screen sizes.  Bootstrap also does include some built in features 
+for sliders and drop down menus.  Could be worth a look at.   If we wanted to get crazy we 
+could always use React.js as well.  It would give us better control over the DOM.  Making 
+on the fly changes easier to code and implement.  Plus we could make some sections components 
+to reuse multiple places.  
